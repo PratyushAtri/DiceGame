@@ -2,5 +2,11 @@
     .dice {
         margin-left: 0;
         text-align: center;
+        width: 7vh;
     }
+    
+    #btn-quit {
+    margin-top: 70px;
+    margin-left: 100px;
+}
 }
