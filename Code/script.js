@@ -1,7 +1,7 @@
 $(()=>{
 
     var score1, score2, currentPlayer, gameplaying, currentPlayerScore;
-    var diceno1, diceno2, sum
+    var diceno1, diceno2, sum;
     var name_1, name_2, input, name1, name2, final;
     var  alphabet, numbers;
 
