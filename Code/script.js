@@ -1,7 +1,10 @@
 $(()=>{
 
     var score1, score2, currentPlayer, gameplaying, diceno1, diceno2, sum, currentPlayerScore, final, name1, name2;
-    var name_1, name_2, input, input2;
+    var name_1, name_2, input, alphabet;
+
+    alphabet = 'qwertyuioplkjhgfdsazxcvbnm';
+
     $('#3btn-hold').prop('disabled',true)
         
         name_1 = prompt('Enter the first player\'s name(Optional)');
@@ -103,6 +106,8 @@ $(()=>{
         document.getElementById('dice1').style.display = 'none';
         document.getElementById('dice2').style.display = 'none';
 
+        inputCorrect2();
+
         inputCorrect();
 
         if(name_1) {
@@ -115,9 +120,6 @@ $(()=>{
         
         if(input > 0) {
             document.querySelector('.end').textContent = input;
-        }
-        else {
-            document.querySelector('.end').textContent = input2;
         }
         
     };
@@ -222,7 +224,15 @@ $(()=>{
     function inputCorrect() {
 
         if (input < 0) {
-            input2 =  prompt('Final Score should be bigger than 0.')
+            input =  prompt('Final Score should be bigger than 0.');
+        }
+
+    };
+
+    function inputCorrect2() {
+
+        if(alphabet.indexOf(input) >= 0) {
+            input =  prompt('Final Score should be a number.');
         }
 
     }
