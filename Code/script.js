@@ -1,7 +1,7 @@
 $(()=>{
 
     var score1, score2, currentPlayer, gameplaying, diceno1, diceno2, sum, currentPlayerScore, final, name1, name2;
-    var name_1, name_2, input;
+    var name_1, name_2, input, input2;
     $('#3btn-hold').prop('disabled',true)
         
         name_1 = prompt('Enter the first player\'s name(Optional)');
@@ -102,6 +102,9 @@ $(()=>{
         document.getElementById('curplayer').textContent = 1;
         document.getElementById('dice1').style.display = 'none';
         document.getElementById('dice2').style.display = 'none';
+
+        inputCorrect();
+
         if(name_1) {
             document.querySelector('.playerName1').textContent = name_1;
         }
@@ -110,8 +113,11 @@ $(()=>{
             document.querySelector('.playerName2').textContent = name_2;
         }
         
-        if(input) {
+        if(input > 0) {
             document.querySelector('.end').textContent = input;
+        }
+        else {
+            document.querySelector('.end').textContent = input2;
         }
         
     };
@@ -212,5 +218,13 @@ $(()=>{
             
         }
     };
+
+    function inputCorrect() {
+
+        if (input < 0) {
+            input2 =  prompt('Final Score should be bigger than 0.')
+        }
+
+    }
     
 });
