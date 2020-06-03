@@ -6,7 +6,7 @@ $(()=>{
     var  alphabet, numbers;
 
     alphabet = 'qwertyuioplkjhgfdsazxcvbnm';
-    numbers = '1234567890';
+    numbers = '123456789';
 
     $('#3btn-hold').prop('disabled',true)
         
@@ -236,21 +236,21 @@ $(()=>{
 
     function inputCorrect2() {
 
-        if(alphabet.indexOf(input) >= 0) {
+        if(alphabet.indexOf(input) > 0) {
             input =  prompt('Final Score should be a number.');
         }
 
     };
 
     function name1Correct() {
-        if (numbers.indexOf(name_1) >= 0) {
-            name_1 = prompt('Name should be a word.');
+        if (numbers.indexOf(name_1) > 0) {
+            name_1 = prompt('Name should be a word, first name is a number.');
         }
     }
 
     function name2Correct() {
-        if (numbers.indexOf(name_2) >= 0) {
-            name_2 = prompt('Name should be a word.');
+        if (numbers.indexOf(name_2) > 0) {
+            name_2 = prompt('Name should be a word, second name is a number.');
         }
     }
     
