@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Pratyush/JavaScript/complete-javascript-course-master/7-ES6/starter" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,11 +32,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591192300507</updated>
-      <workItem from="1591192320844" duration="283000" />
+      <workItem from="1591192320844" duration="504000" />
+      <workItem from="1591203662375" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1591203706419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591203706419" />
   </component>
 </project>
