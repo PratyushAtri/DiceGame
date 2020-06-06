@@ -1,0 +1,12 @@
+@media only screen and (max-width: 480px) {
+    .dice {
+        margin-left: 0;
+        margin-left: 25px;
+        width: 7vh;
+    }
+    
+    #btn-quit {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+}

@@ -1,0 +1,69 @@
+/*----------------------*/
+/* MAIN COMPONENTS */
+/*----------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------*/
+/* HEADINGS */
+/*----------------------*/
+
+h3 {
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+}
+
+/*----------------------*/
+/* RULES */
+/*----------------------*/
+
+.rules {
+    
+    background-image: url(../Images/BackgroundImg/rules3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 92vh;
+    padding-top: 250px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.para1,
+.para2,
+.para3,
+.para4,
+.para5,
+.para6,
+.para7 {
+    padding-bottom: 7px;
+    color: black;
+}
+
+.btns1,
+.btns2,
+.btns3,
+.btns4,
+.btns5,
+.btns6,
+.btns7{
+    color: white;
+}
+
+.para2,
+.para3,
+.para4,
+.para5,
+.para6,
+.para7 {
+    display: none;
+}
+
+.p {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="./rules.css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="rules.js"></script>
+
+    </head>
+    
+    <body class="body">
+    
+        <div class="shadow p-1 bg-white rounded">
+            <h3><strong>Rules</strong></h3>            
+        </div>
+        
+        <div class="rules">
+        
+            <div class="para1">
+                <div class="p">
+                    &#8226; This is a two player game in which both the players would have to roll the dice turn by turn.<br>
+                </div>
+
+                <div class="btns1">
+                    <a class="btn btn-primary" id="btn-next1">Next</a>
+                </div>
+
+            </div>
+            
+            <div class="para2" id="2">
+                <div class="p">
+                    &#8226; In the first turn of each player they can only roll the dice once and have to hold it after rolling.<br>
+                </div>
+
+                <div class="btns2">
+                    <a class="btn btn-secondary" id="btn-prev2">Previous</a>
+                    <a class="btn btn-primary" id="btn-next2">Next</a>
+                </div>
+
+            </div>
+            
+            <div class="para3" id="3">
+                <div class="p">
+                    &#8226; Second turn onwards player can role the dice maximum for <strong>5 times</strong> and can also hold the score after any turn and the number on the dice would be <strong>Added </strong> if it is an even number or <strong>Subtracted </strong> if it is an odd number.<br>
+                </div>
+
+                <div class="btns3">
+                    <a class="btn btn-secondary" id="btn-prev3">Previous</a>
+                    <a class="btn btn-primary" id="btn-next3">Next</a>
+                </div>
+
+            </div>
+
+            <div class="para4" id="4">
+                <div class="p">
+                    &#8226; If the player will roll the dice 5 times the score will automatically be added/subtracted to the current score.<br>
+                </div>
+
+                <div class="btns4">
+                    <a class="btn btn-secondary" id="btn-prev4">Previous</a>
+                    <a class="btn btn-primary" id="btn-next4">Next</a>
+                </div>
+
+            </div>
+
+            <div class="para5" id="5">
+                <div class="p">
+                    &#8226; If any of the player does not know the rules he/she can click on the <strong>EXIT</strong> button and click on the <strong>RULES</strong> and than start a new game.<br>
+                </div>
+
+                <div class="btns5">
+                    <a class="btn btn-secondary" id="btn-prev5">Previous</a>
+                    <a class="btn btn-primary" id="btn-next5">Next</a>
+                </div>
+
+            </div>
+            
+            <div class="para6" id="6">
+                <div class="p">
+                    &#8226; The player to score equal or more than the final score will <strong>win</strong> the game.<br>
+                </div>
+
+                <div class="btns6">
+                    <a class="btn btn-secondary" id="btn-prev6">Previous</a>
+                    <a class="btn btn-primary" id="btn-next6">Next</a>
+                </div>
+
+            </div>
+            
+            <div class="para7" id="7">
+                <div class="p">
+                    &#8226; If a player's current score goes down to -50 than that player will automatically <strong>lose</strong> the game.
+                </div>
+
+                <div class="btns7">
+                    <a class="btn btn-secondary" id="btn-prev7">Previous</a>
+                    <a class="btn btn-warning" id="btn-home" href="../index.html">Home</a>;
+                    <a class="btn btn-primary" href="./game.html">Start</a>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </body>
+    
+</html>
