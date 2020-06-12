@@ -220,7 +220,7 @@ $(()=>{
         console.log(final);
     };
 
-    // enter name check functions
+    // enter name check functions   
     function namecheck1() {
        
         if(name_1) {
